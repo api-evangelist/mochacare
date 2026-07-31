@@ -1,7 +1,29 @@
 aid: mochacare
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mochacare.png
 name: Mochacare
-description: Mochacare is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MochaCare is an AI-powered operations platform for home care agencies and care
+  facilities, combining human virtual assistants with AI agents to run hiring,
+  scheduling, and client-intake operations end-to-end. The company offers two
+  products: Mocha Managed, a 24/7 managed service where its team handles hiring
+  and scheduling, and Mocha Tools, an AI software platform featuring an applicant
+  tracking system, automated shift scheduling, shift-coverage management, document
+  collection, and growth analytics. MochaCare builds custom integrations with
+  existing care-agency systems (WellSky, AxisCare, AlayaCare), plus hiring and
+  communication tools (Indeed, RingCentral), but does not publish a public
+  developer API, developer portal, or API documentation. A Y Combinator portfolio
+  company founded by Nick Walker and Pranav Uppiliappan.
 url: https://raw.githubusercontent.com/api-evangelist/mochacare/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Home Care
+- Healthcare
+- Care Agencies
+- Staffing
+- Scheduling
+- Applicant Tracking
+- AI Agents
+- Virtual Assistants
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/mochacare-domain-security.yml
+- type: Website
+  url: https://www.mochacare.com/
+- type: About
+  url: https://www.mochacare.com/about
+- type: PrivacyPolicy
+  url: https://www.mochacare.com/privacy
+- type: TermsOfService
+  url: https://www.mochacare.com/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
