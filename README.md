@@ -64,6 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Mochacare is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+MochaCare is an AI-powered operations platform for home care agencies and care facilities, combining human virtual assistants with AI agents to run hiring, scheduling, and client-intake operations end-to-end. The company offers two products: Mocha Managed, a 24/7 managed service where its team handles hiring and scheduling, and Mocha Tools, an AI software platform featuring an applicant tracking system, automated shift scheduling, shift-coverage management, document collection, and growth analytics. MochaCare builds custom integrations with existing care-agency systems (WellSky, AxisCare, AlayaCare), plus hiring and communication tools (Indeed, RingCentral), but does not publish a public developer API, developer portal, or API documentation. A Y Combinator portfolio company founded by Nick Walker and Pranav Uppiliappan.
 
-Backed by: y-combinator
+**Areas:** Company · Home Care · Healthcare · Care Agencies · Staffing · Scheduling · Applicant Tracking · AI Agents · Virtual Assistants · Y Combinator
+
+## Mochacare on APIs.io
+
+Everything profiled for Mochacare is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mochacare/](https://apis.io/providers/mochacare/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mochacare Domain Security](https://apis.io/security/mochacare/mochacare-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.mochacare.com/)
+- [Terms of service](https://www.mochacare.com/terms)
+- [Privacy policy](https://www.mochacare.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 8.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mochacare/](https://apis.io/providers/mochacare/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mochacare: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mochacare/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
